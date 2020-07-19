@@ -1,7 +1,7 @@
 import type { Stringer } from "./api";
 
-const src = "àáäâãåèéëêìíïîòóöôùúüûñçßÿœæŕśńṕẃǵǹḿǘẍźḧ·/_,:;";
-const dest = "aaaaaaeeeeiiiioooouuuuncsyoarsnpwgnmuxzh------";
+const src = "àáäâãåèéëêìíïîòóöôõùúüûñçßÿœæŕśńṕẃǵǹḿǘẍźḧ·/_,:;";
+const dest = "aaaaaaeeeeiiiiooooouuuuncsyoarsnpwgnmuxzh------";
 const re = new RegExp(src.split("").join("|"), "g");
 
 /**
